@@ -21,4 +21,11 @@ func main() {
 	for key, value := range s {
 		fmt.Println(key, value)
 	}
+
+	//while loop
+	i := 0
+	for i < 5 {
+		fmt.Println(i)
+		i++
+	}
 }
